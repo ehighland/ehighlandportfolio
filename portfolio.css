@@ -185,7 +185,6 @@ header nav a:hover {
 	grid-auto-rows: 250px;
 	margin: 20px;
 	grid-gap: 15px;
-	padding: 10px;
 }
 
 .bigsection {
@@ -194,7 +193,8 @@ header nav a:hover {
 	font-size: 20pt;
 	overflow-y: scroll;
 	grid-column-start: 1; 
-  	grid-column-end: 4; 
+  	grid-column-end: 4;
+  	padding: 20px; 
 
 }
 
@@ -203,8 +203,75 @@ header nav a:hover {
 	border-top: 7px solid;
 	font-size: 20pt;
 	overflow-y: scroll;
+	padding: 10px;
 }
 
 .section p, .bigsection p {
 	font-size: 14pt;
+}
+
+#codelink a {
+	color: #99ffcc;
+}
+
+#codelink a:hover {
+	color: #000000;
+	background-color: #99ffcc;
+}
+
+#writinglink a {
+	color: #cc99ff;
+}
+
+#writinglink a:hover {
+	color: #000000;
+	background-color: #cc99ff;
+}
+
+#artlink a {
+	color: #ff99cc;
+}
+
+#artlink a:hover {
+	color: #000000;
+	background-color: #ff99cc;
+}
+
+#researchlink a {
+	color: #ffcc99;
+}
+
+#researchlink a:hover {
+	color: #000000;
+	background-color: #ffcc99;
+}
+
+#email a {
+	color: #000000;
+	background-color: #cc99ff;
+	text-decoration: underline;
+}
+
+#email a:hover {
+	text-decoration: none;
+}
+
+#linkedin a {
+	color: #000000;
+	background-color: #ffcc99;
+	text-decoration: underline;
+}
+
+#linkedin a:hover {
+	text-decoration: none;
+}
+
+#github a {
+	color: #000000;
+	background-color: #ff99cc;
+	text-decoration: underline;
+}
+
+#github a:hover {
+	text-decoration: none;	
 }
