@@ -1,0 +1,210 @@
+body {
+	background-color: #000000;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30pt;
+	margin: 0px;
+	letter-spacing: 10px;
+}
+
+h3 {
+	font-size: 26pt;
+	margin: 2px;
+	padding: 5px;
+}
+
+h4 {
+	font-family: 'Lora', serif;
+}
+
+header {
+	font-family: 'Lora', serif;
+	color: #C0C0C0;
+}
+
+nav {
+	background-color: #C0C0C0;
+	color: #000000;
+	padding: 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16pt;
+	margin: 0;
+}
+
+header nav a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header nav a:hover {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.spacer {
+	padding: 0 2%;
+	display: inline;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 250px;
+	font-family: 'Lora', serif;
+	margin: 10px;
+	grid-gap: 15px;
+	padding: 10px;
+}
+
+.code {
+	background-color: #99ffcc;
+	padding: 10% 0px;
+	border: 10px solid;
+	border-color: none;
+	font-size: 50pt;
+}
+
+.code:hover {
+	background-color: #000000;
+	border: 10px solid #99ffcc;
+	color: #99ffcc;
+	font-family: 'Lato', sans-serif;
+}
+
+.code a, a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.code:hover a, a:hover {
+	color: #99ffcc;
+	text-decoration: none;
+}
+
+.writing {
+	background-color: #cc99ff;
+	padding: 10% 0px;
+	border: 10px solid;
+	border-color: none;
+	font-size: 50pt;
+}
+
+.writing:hover {
+	background-color: #000000;
+	border: 10px solid #cc99ff;
+	color: #cc99ff;
+	font-family: 'Lato', sans-serif;
+}
+
+.writing a, a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.writing:hover a, a:hover {
+	color: #cc99ff;
+	text-decoration: none;
+}
+
+.art {
+	background-color: #ff99cc;
+	padding: 10% 0px;
+	border: 10px solid;
+	border-color: none;
+	font-size: 50pt;
+}
+
+.art:hover {
+	background-color: #000000;
+	border: 10px solid #ff99cc;
+	color: #ff99cc;
+	font-family: 'Lato', sans-serif;
+}
+
+.art a, a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.art:hover a, a:hover {
+	color: #ff99cc;
+	text-decoration: none;
+}
+
+.research {
+	background-color: #ffcc99;	
+	padding: 10% 0px;
+	border: 10px solid;
+	border-color: none;
+	font-size: 50pt;
+}
+
+.research:hover {
+	background-color: #000000;
+	border: 10px solid #ffcc99;
+	color: #ffcc99;
+	font-family: 'Lato', sans-serif;
+}
+
+.research a, a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.research:hover a, a:hover {
+	color: #ffcc99;
+	text-decoration: none;
+}
+
+.main {
+	display: grid;
+	grid-template-rows: 50px 400px;
+	grid-template-columns: auto;
+}
+
+.title {
+	height: 2%;
+	margin-top: 5px;
+}
+
+.content {
+	border-left: 3px solid #C0C0C0;
+	border-right: 3px solid #C0C0C0;
+	margin: 2% 15%;
+	color: #c0c0c0;
+}
+
+.about{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 250px;
+	margin: 20px;
+	grid-gap: 15px;
+	padding: 10px;
+}
+
+.bigsection {
+	background-color: #C0C0C0;
+	border-top: 10px solid;
+	font-size: 20pt;
+	overflow-y: scroll;
+	grid-column-start: 1; 
+  	grid-column-end: 4; 
+
+}
+
+.section {
+	background-color: #C0C0C0;
+	border-top: 7px solid;
+	font-size: 20pt;
+	overflow-y: scroll;
+}
+
+.section p, .bigsection p {
+	font-size: 14pt;
+}
