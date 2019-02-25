@@ -179,6 +179,10 @@ header nav a:hover {
 	color: #c0c0c0;
 }
 
+.content .totheleft {
+	text-align: left;
+}
+
 .about{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
