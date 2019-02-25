@@ -1,11 +1,15 @@
 # My portfolio
-This is the repo for my personal website. It is a collection of my work, divided into four areas:
+This is the repo for my personal website. It contains some information
+about me, how to contact me, and a collection of my 
+work, divided into four categories:
 
 - Code
 - Art
 - Writing
 - Research
 
-Each section contains a link to a Drive folder (or, in the case of "Code", my GitHub page). I have also included an overview of my work in each area and its significance.
+Each page contains information and links relevant to that category. 
+I have also included a blurb about the personal significance of the 
+category and/or my history and experience with it.
 
-
+View [Here](https://ehighland.github.io/ehighlandportfolio/)
