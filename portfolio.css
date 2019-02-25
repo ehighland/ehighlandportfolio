@@ -279,3 +279,13 @@ header nav a:hover {
 #github a:hover {
 	text-decoration: none;	
 }
+
+#originstory a {
+	color: #000000;
+	background-color: #99ffcc;
+	text-decoration: underline;
+}
+
+#originstory a:hover {
+	text-decoration: none;
+}
