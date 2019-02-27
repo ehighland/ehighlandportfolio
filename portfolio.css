@@ -280,12 +280,12 @@ header nav a:hover {
 	text-decoration: none;	
 }
 
-#originstory a {
+#originstory p a {
 	color: #000000;
 	background-color: #99ffcc;
 	text-decoration: underline;
 }
 
-#originstory a:hover {
+#originstory p a:hover {
 	text-decoration: none;
 }
