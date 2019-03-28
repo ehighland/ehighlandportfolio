@@ -75,7 +75,7 @@ header nav a:hover {
 	background-color: #99ffcc;
 	padding: 10% 0px;
 	border: 10px solid;
-	border-color: none;
+	border-color: transparent;
 	font-size: 50pt;
 }
 
@@ -100,7 +100,7 @@ header nav a:hover {
 	background-color: #cc99ff;
 	padding: 10% 0px;
 	border: 10px solid;
-	border-color: none;
+	border-color: transparent;
 	font-size: 50pt;
 }
 
@@ -148,7 +148,7 @@ header nav a:hover {
 	background-color: #ff99cc;
 	padding: 10% 0px;
 	border: 10px solid;
-	border-color: none;
+	border-color: transparent;
 	font-size: 50pt;
 }
 
@@ -173,7 +173,7 @@ header nav a:hover {
 	background-color: #ffcc99;	
 	padding: 10% 0px;
 	border: 10px solid;
-	border-color: none;
+	border-color: transparent;
 	font-size: 50pt;
 }
 
