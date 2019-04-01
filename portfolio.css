@@ -321,7 +321,7 @@ header nav a:hover {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 750px){
 	body{
 		font-size: 10pt;
 	}
